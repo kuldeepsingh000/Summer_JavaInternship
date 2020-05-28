@@ -1,5 +1,7 @@
 package today28MayQuestions;
 
+//Performing various kind of methods
+
 public class Q1 {
 	
 	static void m1()

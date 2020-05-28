@@ -2,7 +2,7 @@ package today28MayQuestions;
 
 import java.util.Scanner;
 
-//Algorithms to reverse the string
+//Algorithms to reverse the string by taking from user
 
 public class Q2 {
 

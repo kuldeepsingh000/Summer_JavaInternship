@@ -12,6 +12,8 @@ public class Q4 {
 	    String s = sc.next();
 		String s1 = sc.next();
 		
+		
+		
 		System.out.println(s+s1);
 	}
 }

@@ -12,9 +12,11 @@ public class Q3 {
 		Scanner sc = new Scanner(System.in);
 	    System.out.println("Enter the string");
 	   
+	    
 	    String s = sc.nextLine();
 	    System.out.println(s.replaceAll("[AaEeIiOoUu]", "z"));
 		
+//	    Second logic
 //		char[] ch = s.toCharArray();
 //		n = str.length();
 //		for(int i=0; i<n; i++)
