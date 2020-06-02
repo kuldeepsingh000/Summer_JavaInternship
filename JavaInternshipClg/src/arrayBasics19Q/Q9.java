@@ -27,6 +27,7 @@ public class Q9 {
                     arr[j+1] = temp;
                 }
 			}
+			
 		}
 		
 		for(int e : arr)
