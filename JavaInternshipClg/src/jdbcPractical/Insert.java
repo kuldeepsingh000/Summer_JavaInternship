@@ -18,6 +18,7 @@ public class Insert {
 //		System.out.println(count + "rows/s affectd");
 		
 //		Use the preparedStatement
+		
 //		int eid = 555;
 //		String ename = "Kuldeep";
 //		int esal = 60000;
