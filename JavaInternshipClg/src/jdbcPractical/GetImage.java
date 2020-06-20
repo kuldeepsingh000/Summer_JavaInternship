@@ -12,6 +12,7 @@ public class GetImage {
 
 	public static void main(String[] args) throws Exception, SQLException {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
+		
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@Localhost:1521:xe", "system", "1234");
 
 		PreparedStatement st = con.prepareStatement("select * from img11");
