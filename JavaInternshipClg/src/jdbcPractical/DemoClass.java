@@ -6,7 +6,7 @@ public class DemoClass {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
-		Class.forName("oracle.jdbc.driver.OracleDriver"); // this one helps to register the driver class.
+		Class.forName("oracle.jdbc.driver.OracleDriver"); 
 		
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@Localhost:1521:xe", "system", "1234");
 		Statement st = con.createStatement();

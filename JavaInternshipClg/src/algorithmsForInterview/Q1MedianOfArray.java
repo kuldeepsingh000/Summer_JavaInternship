@@ -1,9 +1,7 @@
 package algorithmsForInterview;
 
 import java.util.*;
-import java.util.Set;
 
-//Q1 - Median of sorted array
 
 public class Q1MedianOfArray {
 
@@ -19,7 +17,7 @@ public class Q1MedianOfArray {
 //		for(int i=0; i<n; i++) a[i] = sc.nextInt();
 //		for(int i=0; i<m; i++) b[i] = sc.nextInt();
 		
-		SortedSet<Integer> ss = new TreeSet();
+		SortedSet<Integer> ss = new TreeSet<Integer>();
 		ss.add(12);
 		ss.add(1);
 		ss.add(54);
@@ -33,6 +31,8 @@ public class Q1MedianOfArray {
 		System.out.println(ss.tailSet(34)); // elements greater then 34
 		System.out.println(ss.subSet(12, 34));
 		System.out.println(ss.comparator());
+		
+		sc.close();
 	}
 
 }
