@@ -1,5 +1,4 @@
 package jdbcPractical;
-
 import java.sql.*;
 
 public class UseOfPreparedStatement {
@@ -23,6 +22,8 @@ public class UseOfPreparedStatement {
 		
 		int c = st.executeUpdate();
 		System.out.println(c + " records inserted");
+		
+		
 		
 		st.close();
 		con.close();

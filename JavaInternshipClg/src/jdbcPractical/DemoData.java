@@ -8,12 +8,11 @@ public class DemoData {
 
 	public static void main(String[] args) throws Exception {
 		
-//		Demo databqse.
-		
+//		Demo database.
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@Localhost:1521:xe", "system", "1234");
-
 		Statement st = con.createStatement();
+		
 		st.addBatch("insert into demo values(1, 'A', 65)");
 		st.addBatch("insert into demo values(2, 'B', 65)");
 		st.addBatch("insert into demo values(3, 'C', 66)");
