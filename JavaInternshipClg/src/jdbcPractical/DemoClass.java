@@ -3,7 +3,7 @@ package jdbcPractical;
 import java.sql.*;
 
 public class DemoClass {
-
+	
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
 		Class.forName("oracle.jdbc.driver.OracleDriver"); 
