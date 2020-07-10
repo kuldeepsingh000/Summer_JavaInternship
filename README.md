@@ -1,7 +1,7 @@
 ### JavaInternship
 Program of all the questions given during summer Java training
 
-[ArrayBasics19Q](https://github.com/kuldeepsingh000/JavaInternship/blob/master/JavaInternshipClg/src/arrayBasics19Q/)
+* [ArrayBasics19Q](https://github.com/kuldeepsingh000/JavaInternship/blob/master/JavaInternshipClg/src/arrayBasics19Q/)
 1.	WAP to accept an Array input from an User. and find the Sum of Numbers of each array.
 2.	WAP to accept an Array input from an User. and find the Average of Numbers of each array.
 3.	WAP to accept an Array to accept a Month number and Display the numbr of days that months has.(Eq- March- 31)
@@ -28,7 +28,7 @@ Program of all the questions given during summer Java training
 
 
 ### Java String – Level-1
-[javaStringsLevel1](https://github.com/kuldeepsingh000/JavaInternship/tree/master/JavaInternshipClg/src/javaStringsLevel1/)
+* [javaStringsLevel1](https://github.com/kuldeepsingh000/JavaInternship/tree/master/JavaInternshipClg/src/javaStringsLevel1/)
 
 1.	WAP to accept a String from User and Display it Back on Screen
 2.	WAP to accept the First name , Middle Name and Last Name of a person and display full name  and Short Name (eq- Amar Kumar Singh-   A.K.S)
