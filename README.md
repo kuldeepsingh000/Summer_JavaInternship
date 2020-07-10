@@ -27,7 +27,7 @@ Program of all the questions given during summer Java training
 (eq- 5,5,6,7,7,8,9,1)--- 5,6,7,8,9,1
 
 
-###Java String – Level-1
+### Java String – Level-1
 [javaStringsLevel1](https://github.com/kuldeepsingh000/JavaInternship/tree/master/JavaInternshipClg/src/javaStringsLevel1/)
 
 1.	WAP to accept a String from User and Display it Back on Screen
